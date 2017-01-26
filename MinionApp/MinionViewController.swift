@@ -2,11 +2,18 @@ import UIKit
 
 class MinionViewController: UITableViewController {
 
-    var dataSource: [Minion]? = [Minion(name: "Nagesh"), Minion(name: "Hello")]
+    var dataSource: [Minion]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Minion Names"
+
+        MinionService().fetchMinionNames(completionHandler: { [weak self] (minions) in
+            if let strongSelf = self {
+                strongSelf.dataSource = minions
+                strongSelf.tableView.reloadData()
+            }
+        })
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
