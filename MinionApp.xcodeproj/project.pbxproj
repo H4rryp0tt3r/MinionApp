@@ -16,6 +16,10 @@
 		15128C6F1E3A15C300911A0F /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C6E1E3A15C300911A0F /* Minion.swift */; };
 		15128C711E3A15C900911A0F /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C6E1E3A15C300911A0F /* Minion.swift */; };
 		15128C731E3A163A00911A0F /* MinionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C721E3A163A00911A0F /* MinionTests.swift */; };
+		15971BB51E3BC6AE00422736 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15971BB31E3BC6AE00422736 /* Nimble.framework */; };
+		15971BB61E3BC6AE00422736 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15971BB31E3BC6AE00422736 /* Nimble.framework */; };
+		15971BB71E3BC6AE00422736 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15971BB41E3BC6AE00422736 /* Quick.framework */; };
+		15971BB81E3BC6AE00422736 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15971BB41E3BC6AE00422736 /* Quick.framework */; };
 		15E947361E3A574E00A3202F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E947341E3A574E00A3202F /* Alamofire.framework */; };
 		15E947371E3A574E00A3202F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E947351E3A574E00A3202F /* SwiftyJSON.framework */; };
 		15E9473A1E3A60BA00A3202F /* MinionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C501E3A14E900911A0F /* MinionViewController.swift */; };
@@ -48,6 +52,8 @@
 		15128C651E3A14E900911A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15128C6E1E3A15C300911A0F /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minion.swift; sourceTree = "<group>"; };
 		15128C721E3A163A00911A0F /* MinionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionTests.swift; sourceTree = "<group>"; };
+		15971BB31E3BC6AE00422736 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		15971BB41E3BC6AE00422736 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		15E947341E3A574E00A3202F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		15E947351E3A574E00A3202F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		15E9473B1E3A64F300A3202F /* MinionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionService.swift; sourceTree = "<group>"; };
@@ -58,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15971BB71E3BC6AE00422736 /* Quick.framework in Frameworks */,
+				15971BB51E3BC6AE00422736 /* Nimble.framework in Frameworks */,
 				15E947361E3A574E00A3202F /* Alamofire.framework in Frameworks */,
 				15E947371E3A574E00A3202F /* SwiftyJSON.framework in Frameworks */,
 			);
@@ -67,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15971BB81E3BC6AE00422736 /* Quick.framework in Frameworks */,
+				15971BB61E3BC6AE00422736 /* Nimble.framework in Frameworks */,
 				15E9473F1E3A6AB400A3202F /* SwiftyJSON.framework in Frameworks */,
 				15E9473E1E3A6AB200A3202F /* Alamofire.framework in Frameworks */,
 			);
@@ -122,6 +132,8 @@
 		15E947331E3A574E00A3202F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15971BB31E3BC6AE00422736 /* Nimble.framework */,
+				15971BB41E3BC6AE00422736 /* Quick.framework */,
 				15E947341E3A574E00A3202F /* Alamofire.framework */,
 				15E947351E3A574E00A3202F /* SwiftyJSON.framework */,
 			);
@@ -238,6 +250,8 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
 			);
 			outputPaths = (
 			);
