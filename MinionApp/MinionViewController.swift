@@ -8,12 +8,7 @@ class MinionViewController: UITableViewController {
         super.viewDidLoad()
         self.navigationItem.title = "Minion Names"
 
-        MinionService().fetchMinionNames(completionHandler: { [weak self] (minions) in
-            if let strongSelf = self {
-                strongSelf.dataSource = minions
-                strongSelf.tableView.reloadData()
-            }
-        })
+        fetchMinions()
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -29,6 +24,15 @@ class MinionViewController: UITableViewController {
         }
 
         return cell
+    }
+
+    func fetchMinions(minionService: MinionService = MinionService()) {
+        minionService.fetchMinionNames(completionHandler: { [weak self] (minions) in
+            if let strongSelf = self {
+                strongSelf.dataSource = minions
+                strongSelf.tableView.reloadData()
+            }
+        })
     }
 
 }

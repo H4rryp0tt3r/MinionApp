@@ -20,6 +20,7 @@
 		15971BB61E3BC6AE00422736 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15971BB31E3BC6AE00422736 /* Nimble.framework */; };
 		15971BB71E3BC6AE00422736 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15971BB41E3BC6AE00422736 /* Quick.framework */; };
 		15971BB81E3BC6AE00422736 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15971BB41E3BC6AE00422736 /* Quick.framework */; };
+		15971BBB1E3BE16D00422736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15128C521E3A14E900911A0F /* Main.storyboard */; };
 		15E947361E3A574E00A3202F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E947341E3A574E00A3202F /* Alamofire.framework */; };
 		15E947371E3A574E00A3202F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E947351E3A574E00A3202F /* SwiftyJSON.framework */; };
 		15E9473A1E3A60BA00A3202F /* MinionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C501E3A14E900911A0F /* MinionViewController.swift */; };
@@ -236,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15971BBB1E3BE16D00422736 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
