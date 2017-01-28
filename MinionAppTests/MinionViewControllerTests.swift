@@ -3,7 +3,7 @@ import Quick
 import Nimble
 @testable import MinionApp
 
-class MinionAppTests: QuickSpec {
+class MinionViewControllerTests: QuickSpec {
 
     class FakeMinionService: MinionService {
         var fetchMinionsMethodCalled = false

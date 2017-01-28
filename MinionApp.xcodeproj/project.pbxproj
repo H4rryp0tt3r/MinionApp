@@ -12,7 +12,7 @@
 		15128C541E3A14E900911A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15128C521E3A14E900911A0F /* Main.storyboard */; };
 		15128C561E3A14E900911A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15128C551E3A14E900911A0F /* Assets.xcassets */; };
 		15128C591E3A14E900911A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15128C571E3A14E900911A0F /* LaunchScreen.storyboard */; };
-		15128C641E3A14E900911A0F /* MinionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C631E3A14E900911A0F /* MinionAppTests.swift */; };
+		15128C641E3A14E900911A0F /* MinionViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C631E3A14E900911A0F /* MinionViewControllerTests.swift */; };
 		15128C6F1E3A15C300911A0F /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C6E1E3A15C300911A0F /* Minion.swift */; };
 		15128C711E3A15C900911A0F /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C6E1E3A15C300911A0F /* Minion.swift */; };
 		15128C731E3A163A00911A0F /* MinionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15128C721E3A163A00911A0F /* MinionTests.swift */; };
@@ -49,7 +49,7 @@
 		15128C581E3A14E900911A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15128C5A1E3A14E900911A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15128C5F1E3A14E900911A0F /* MinionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15128C631E3A14E900911A0F /* MinionAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionAppTests.swift; sourceTree = "<group>"; };
+		15128C631E3A14E900911A0F /* MinionViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionViewControllerTests.swift; sourceTree = "<group>"; };
 		15128C651E3A14E900911A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15128C6E1E3A15C300911A0F /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minion.swift; sourceTree = "<group>"; };
 		15128C721E3A163A00911A0F /* MinionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionTests.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		15128C621E3A14E900911A0F /* MinionAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				15128C631E3A14E900911A0F /* MinionAppTests.swift */,
+				15128C631E3A14E900911A0F /* MinionViewControllerTests.swift */,
 				15128C651E3A14E900911A0F /* Info.plist */,
 				15128C721E3A163A00911A0F /* MinionTests.swift */,
 			);
@@ -279,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15128C641E3A14E900911A0F /* MinionAppTests.swift in Sources */,
+				15128C641E3A14E900911A0F /* MinionViewControllerTests.swift in Sources */,
 				15128C731E3A163A00911A0F /* MinionTests.swift in Sources */,
 				15E9473A1E3A60BA00A3202F /* MinionViewController.swift in Sources */,
 				15128C711E3A15C900911A0F /* Minion.swift in Sources */,
